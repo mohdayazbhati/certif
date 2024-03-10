@@ -1,0 +1,35 @@
+/* Certifications.css */
+
+.certifications-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.certification-carousel {
+  max-height: 400px; /* Adjust the height as needed */
+  overflow: auto; /* Enable scrolling on mobile */
+}
+
+.certification-item {
+  text-align: center;
+}
+
+.certification-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.certification-name {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Media query for desktop */
+@media (min-width: 768px) {
+  .certification-carousel {
+    overflow: hidden; /* Hide scrollbar on desktop */
+    max-height: auto; /* Remove max-height */
+  }
+}

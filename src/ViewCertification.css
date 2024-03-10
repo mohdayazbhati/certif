@@ -1,0 +1,18 @@
+/* ViewCertification.css */
+
+.certification-container {
+    padding: 20px;
+  }
+  
+  .certification-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .certification-container {
+      padding: 10px;
+    }
+  }
+  
